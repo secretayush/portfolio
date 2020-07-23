@@ -1027,39 +1027,45 @@
                     </p>
                 </div>
                 <div class="col-md-12 col-lg-8">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label>Your Name</label>
-                                <input type="email" class="form-control rounded">
+                    <form action="https://formspree.io/mdowyzlr" class="contactform" method="POST" id="my-form">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Your Name</label>
+                                    <input type="text" class="form-control rounded" placeholder="Enter full name">
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label>What's your Email?</label>
-                                <input type="email" class="form-control rounded">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>What's your Email?</label>
+                                    <input type="email" name="email" class="form-control rounded"
+                                        placeholder="Eg: example@mail.com">
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label>Subject</label>
-                                <input type="email" class="form-control rounded">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Subject</label>
+                                    <input type="text" name="message" class="form-control rounded"
+                                        placeholder="Subject">
 
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label>Your message</label>
-                                <textarea class="form-control rounded" rows="4"></textarea>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label> Your message</label>
+                                    <textarea id="comment" name="comment" class="form-control rounded" rows="4"
+                                        placeholder="Your message"></textarea>
+                                </div>
                             </div>
-                        </div>
-                    </div>
 
-                    <button type="submit" class="btn btn-primary btn-lg rounded"><i class="fa fa-paper-plane"></i>
-                        Submit</button>
-                </div>
+                        </div>
+                        <button type="submit" id="my-form-button" class="btn btn-primary btn-lg rounded"><i
+                                class="fa fa-paper-plane"></i>
+                            Submit</button>
+                        <p id="my-form-status"></p>
+                    </form>
             </div>
         </div>
     </section>
@@ -1098,6 +1104,7 @@
     <a href="javascript:" id="return-to-top" style="display: none;"><i class="fa fa-chevron-up"></i></a>
 
     <script src="./portfolio_files/index.bundle.js.download"></script>
+    <script src="portfolio_files/javascript.js"></script>
 
 
 </body>
