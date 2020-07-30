@@ -8,7 +8,7 @@ h4,h5,h6{
   font-family: 'Hammersmith One', sans-serif;
 }
 p{
-  font-family: 'Varta', sans-serif;
+  font-family: 'Crete Round', serif;
 }
 
 .bg-overlay {
@@ -282,7 +282,7 @@ section {
     background-color: #f6b500;
     border-color: #e9ab00;
   }
-  .list-inline {
+  #emailbtn{
     display: block;
   }
 }
@@ -317,15 +317,7 @@ section {
     font-size: small;
     box-sizing: border-box;
   }
-  .btn-primary {
-    margin: auto;
-    color: #212529;
-    background-color: #ffc31d;
-    border-color: #ffc31d;
-  }
-  .btn-primary:hover {
-    color: #212529;
-    background-color: #f6b500;
-    border-color: #e9ab00;
+  #emailbtn{
+    display: block;
   }
 }
