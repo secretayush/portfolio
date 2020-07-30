@@ -105,8 +105,7 @@ hr{
 }
 body {
   margin: 0;
-  font-family: Montserrat, "Helvetica Neue", Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Balsamiq Sans', cursive;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -9069,6 +9068,7 @@ a.text-dark:hover {
   -ms-user-select: none;
   user-select: none;
 }
+
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
