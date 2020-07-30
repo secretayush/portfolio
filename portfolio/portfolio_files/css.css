@@ -196,6 +196,9 @@ section {
   transition: all 1s ease 0s;
   width: 3495px;
 }
+.owl-nav button.owl-next, .owl-nav button.owl-prev{
+  display: none;
+}
 
 /* largest screen */
 @media (min-width: 1200px) {
