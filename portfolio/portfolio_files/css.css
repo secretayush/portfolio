@@ -1,4 +1,17 @@
-bg-overlay {
+body{
+  font-family: 'Crete Round', serif;
+}
+h1,h2,h3{
+  font-family: 'Balsamiq Sans', cursive;
+}
+h4,h5,h6{
+  font-family: 'Hammersmith One', sans-serif;
+}
+p{
+  font-family: 'Varta', sans-serif;
+}
+
+.bg-overlay {
   background-color: rgba(36, 42, 53, 0.9);
   position: absolute;
   height: 100%;
@@ -29,11 +42,6 @@ bg-overlay {
 }
 section {
   padding: 4rem 0;
-}
-@media screen and (max-width: 575px) and (min-width: 320px) {
-  section {
-    padding: 3rem 0;
-  }
 }
 .hero {
   position: relative;
@@ -98,7 +106,6 @@ section {
   color: white;
   transform: rotateY(180deg);
 }
-
 #deg {
   position: absolute;
   top: 50%;
@@ -191,13 +198,13 @@ section {
     transform: translateY(-100%);
   }
 }
+.owl-nav button.owl-next, .owl-nav button.owl-prev{
+  display: none;
+}
 .owl-stage {
   transform: translate3d(-1941px, 0px, 0px);
   transition: all 1s ease 0s;
   width: 3495px;
-}
-.owl-nav button.owl-next, .owl-nav button.owl-prev{
-  display: none;
 }
 
 /* largest screen */
